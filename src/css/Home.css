@@ -1,0 +1,38 @@
+.home {
+    height: 50vh;
+    background-image: url('../img/book.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .home-container h1,
+  .home-container p,
+  .home-container a {
+    margin-top: 20px;
+  }
+  
+  .btn {
+    display: block;
+    padding: 1em 2.5em;
+    border-radius: 50px;
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: 500;
+    margin-top: 1em;
+    text-transform: uppercase;
+  }
+  
+  .btn-primary {
+    color: #fff;
+    background-color: #16a083;
+  }

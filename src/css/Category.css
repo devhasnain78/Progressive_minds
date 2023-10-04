@@ -1,0 +1,49 @@
+#categories {
+    padding: 3rem 2rem;
+    background-color: var(--background-color);
+  }
+  
+  #categories .heading {
+    text-align: center;
+    font-size: 2rem;
+    color: var(--font-color);
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+  
+  .cat-images {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+    cursor: pointer;
+  }
+  
+  .cat-images img {
+    width: 30%;
+    height: 100%;
+    margin: auto;
+    border-radius: 5px;
+  }
+  
+  .cat-container {
+    position: relative;
+  }
+  
+  .img-age {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .img-age h2 {
+    font-size: 1.2rem;
+    margin: auto;
+    color: var(--font-color);
+  }
+  
+  .img-age a {
+    text-decoration: none;
+    color: #383838;
+  }
+  
